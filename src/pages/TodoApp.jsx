@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { AddTodo } from "../Addtodo.jsx"
-import { Todolist } from "../Todolist.jsx"
+import { AddTodo } from "../components/Addtodo.jsx"
+import { Todolist } from "../components/Todolist.jsx"
 
 export const TodoApp = () => {
   const [todoList, setTodoList] = useState([])
